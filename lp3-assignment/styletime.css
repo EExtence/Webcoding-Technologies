@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-image: url("/Users/eleanorextence/Desktop/School/Fall2023/Webcoding-Technologies/lp3-assignment/images/starry sky gif.gif");
+    height: 100%
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: lightpink;
+}
+
+h2 {
+    font-size: 35px;
+    color: lightpink;
+}
+
+p {
+    font-size: 30px;
+    color: lightblue;
+    border-left: 4px solid lightblue;
+    padding-left: 3px;
+    margin: 0 5px;
+}
+
+/* nav list in header */
+nav {
+    margin: 0 auto;
+    width: 66%;
+    height: 30px;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(143, 210, 232);
+}
+
+/* setting up da flexbox */
+.container {
+    display: flex;
+    height: 100%
+}
+
+/* Content classes */
+.container-middle-content{
+    margin: 10px auto;
+    width: 90%;
+    flex-direction: column;
+    border: 15px solid transparent;
+    border-image: url("/Users/eleanorextence/Desktop/School/Fall2023/Webcoding-Technologies/lp3-assignment/images/669f9e9981a7cb4bfe804c72fb79dbdc.gif" ) 30 stretch;
+    background-image: linear-gradient(to top, #890f81 10%, #060632);
+}
+
+.content-sides {
+    margin: 0 auto;
+    width: 10%;
+    height: 100%;
+}
+
+.header-content {
+    margin: 5px auto;
+    width: 100%;
+}
+
+

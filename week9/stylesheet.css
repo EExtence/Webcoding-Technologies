@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Sometype+Mono&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Sometype Mono', monospace;
+}
+
+h1 {
+    margin:  10px auto;
+}
+
+h3 {
+    margin:  10px auto;
+}
+
+table {
+    /* width: 100%; */
+    margin-bottom:  10px;
+}
+
+td, th {
+    border:  1px solid #83d1f3;
+    text-align:  left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #83d1f3;
+}
+
+.contact-info {
+    margin: 3px auto;
+}
+
+.browser-checkbox {
+    margin: 5px auto;
+}
+
+.os-radio {
+    margin:  5px auto;
+}

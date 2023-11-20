@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   min-height: 100%;
+}
+
+body {
+   font-family: "Mooli", sans-serif;
+   background-image: url("/Users/eleanorextence/Desktop/School/Fall2023/Webcoding-Technologies/week8/images/maxresdefault.jpg");
+   background-size:100% 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+header {
+   width: 90%;
+   height: 100px;
+   margin: 0 auto;
+   vertical-align: middle;
+   text-align: center;
+   color: #e8faeb;
+   line-height: 100px;
+
+   backdrop-filter: blur(5px);
+   mask: linear-gradient(90deg, transparent, rgba(0, 0, 0, 255), rgba(0, 0, 0, 255),rgba(0, 0, 0, 255),rgba(0, 0, 0, 255), transparent);
+}
+
+ul {
+   list-style-type: none;
+   font-size: 30px;
+}
+
+nav {
+   width: 66%;
+   height: 30px;
+   margin: 0 auto;
+   border-radius: 5px;
+   border: 4px solid #9c67e6;
+   backdrop-filter: blur(5px);  
+}
+
+nav ul {
+   width: 100%;
+   margin: 0 auto;
+   list-style-type: none;
+   text-align: center;
+   font-size: 22px;
+ 
+}
+
+nav li {
+   display: inline;
+   padding-right: 20px;
+}
+
+nav li a {
+   color:#e8faeb;
+   text-decoration: none;
+}
+
+nav li a:hover {
+   color:#e8faeb;
+   text-decoration: underline;
+}
+
+footer {
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 5px;
+   position: fixed;
+   bottom: 0;
+   background-color: #9c67e6;
+   text-align: center;
+   color: antiquewhite;
+}
+
+h1 {
+   font-size: 55px;
+}
+
+h2 {
+   font-size: 50px;
+}
+
+h3 {
+   margin-top: 15px;
+   color:#e8faeb;
+   font-size: 35px;
+}
+
+p {
+   font-size: 25px;
+}
+
+p a {
+   color: #c1faca;
+   text-decoration: none;
+}
+
+p a:hover {
+   color:#c1faca;
+   text-decoration: underline;
+
+}
+
+li {
+   margin-left: 25px;
+}
+
+.flex-container {
+   display: flex;
+   /* width: 90%; */
+}
+.flex-container > div {
+   backdrop-filter: blur(15px);
+   margin-top: 5px;
+}
+
+.headlines {
+   color:#e8faeb;
+}
+
+#resume-main {
+   width: 70%;
+   border: 4px solid #9c67e6;
+   border-radius: 5px;
+   text-align: center;
+}
+
+#personal-info {
+   width: 30%;
+   margin-left:5px ;
+   border: 4px solid #9c67e6;
+   border-radius: 5px;
+}
+
+#resume {
+   width:90%;
+   margin: 0 auto;
+   margin-bottom:100px;
+}
+
+#personal-picture {
+   border: 2px solid #9c67e6;
+   border-radius: 5px;
+   width: 60%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   
+}
+

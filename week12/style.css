@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(195, 255, 226);
+	font-family: sans-serif;
+}
+
+.colors {
+	width: 75%;
+	margin: 0 auto; 
+}
+
+.white, .green, .red {
+	margin-bottom: 10px;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.white {
+	background: white;
+	margin-top:  25px;
+}
+
+.green {
+	background: green;
+	
+}
+
+.red {
+	background: #ff9999;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+	overflow: hidden;
+	background-color: cadetblue;
+}
+
+li {
+	float:  left;
+}
+
+li a {
+	display:  block;
+	color:  white;
+	text-align: center;
+	padding:  14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color:  #111;
+}
+
+.back {
+	margin-top: 25px;
+}
+
+.back a {
+	text-decoration: none;
+}
+
+.back a:hover {
+	text-decoration: underline;
+}

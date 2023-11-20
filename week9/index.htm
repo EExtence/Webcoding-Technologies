@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Eleanor Extence | Contact form</title>
+        <meta name="description" content="Webite for contacting me">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="wrap">
+            <h1>Contact me :3</h1>
+            <hr>
+            <form action="form.php" method="post">
+                <input class="contact-info" name="fname" placeholder="* First Name" required type="text"><br>
+                <input class="contact-info" name="lname" placeholder="* Last Name" required type="text"><br>
+                <input class="contact-info" name="phone" placeholder="* Phone Number" required type="text"><br>
+                <input class="contact-info" name="email" placeholder="* Email" required type="text"><br>
+
+                <h3>Which browser are you using?</h3>
+                <input class="browser-checkbox" name="browser1" value="Firefox" type="checkbox"> Firefox<br>
+                <input class="browser-checkbox" name="browser2" value="Chrome" type="checkbox"> Google Chrome<br>
+                <input class="browser-checkbox" name="browser3" value="Safari" type="checkbox"> Safari<br>
+
+                <h3>What operating system are you using?</h3>
+                <input class="os-radio" name="os" value="Windows" type="radio"> Windows<br>
+                <input class="os-radio" name="os" value="MacOs" type="radio"> MacOs<br>
+                <input class="os-radio" name="os" value="Linux" type="radio"> Linux<br>
+
+                <h3>What do you think of my site?</h3>
+                <select class="site-rate" name="rate"> 
+                    <option>select one:</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Poor">Poor</option>
+                </select>
+
+                <h3>Definition of ratings</h3>
+                <table>
+                    <tr>
+                        <th>Rating</th>
+                        <th>Definition</th>
+                    </tr>
+                    <tr>
+                        <td>Excellent</td>
+                        <td>Of the highest or finest quality; exceptionally good for its kind.</td>
+                    </tr>
+                    <tr>
+                        <td>Good</td>
+                        <td>Being positive or desirable in nature; not bad or poor.</td>
+                    </tr>
+                    <tr>
+                        <td>Fair</td>
+                        <td>Of pleasing appearance, especially because of a pure or fresh quality; comely.</td>
+                    </tr>
+                    <tr>
+                        <td>Poor</td>
+                        <td>Not adequate in quality or quantity; inferior.</td>
+                    </tr>
+                </table>
+
+                <textarea cols="35" id="comments" name="comments" placeholder="* Leave your comments here." required rows="5"></textarea><br>
+
+                <input onclick="window.location.href='#';" type="submit" value="Submit" />
+                <p> * = required</p>
+        </div>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
